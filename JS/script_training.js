@@ -13,4 +13,16 @@ P.S. Функции вызывать не обязательно*/
 
 'use strict';
 
-// Код возьмите из предыдущего домашнего задания
+let numberOfFilms;
+
+function start () {
+    numberOfFilms = +prompt("Сколько фильмов вы уже посмотрели?", '');
+
+    while (numberOfFilms == '' || numberOfFilms == null || is NaN(numberOfFilms)) {
+        numberOfFilms = +prompt("Сколько фильмов вы уже посмотрели?", '');
+    }
+    
+}
+
+start();
+
