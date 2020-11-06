@@ -60,8 +60,7 @@ function detectPersonalLevel() {
         console.log("Вы киноман!");
     } else {
         console.log("Произошла ошибка");
-    }
-    
+    }  
 }
 
 detectPersonalLevel();
